@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.section-home {
+  background-image: url(https://routeegy.github.io/egyptianParty/images/events-heavenly-header.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.menu-item {
+  padding: 3rem 8rem 0rem 2rem;
+}
+
+.menu-link {
+  color: #fff;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.menu-link:hover,
+.closeBtn:hover {
+  color: #d62e33;
+}
+
+.tapped-header {
+  cursor: pointer;
+}
+
+.tapped-content {
+  padding: 2rem;
+}
+
+.section-timer {
+  background-image: url("https://routeegy.github.io/egyptianParty/images/invitation-2508607__340.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 8rem 0;
+}
+
+.section-details {
+  margin: 8rem 0;
+}
+
+.timer-c {
+  padding: 5rem;
+}
+
+*::placeholder {
+  font-size: 1.6rem;
+}
+
+.form-control:focus {
+  font-size: 1.6rem;
+}
